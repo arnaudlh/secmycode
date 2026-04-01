@@ -78,10 +78,42 @@ A library of GitHub Copilot agents, instructions, skills, and prompts for secure
 
 ## Quick Start
 
-1. **Clone this repo** into your project or copy the `.github/` folder.
-2. **Instructions activate automatically** based on file patterns when you use Copilot.
-3. **Use agents** by typing `@security-reviewer`, `@security-planner`, etc. in Copilot Chat.
-4. **Use prompts** by typing `/security-review`, `/security-plan`, etc. in Copilot Chat.
+### Option 1: Copilot CLI Marketplace (recommended)
+
+Register the marketplace and install the plugins you need:
+
+```bash
+# Register the marketplace
+copilot plugin marketplace add arnaudlh/secmycode
+
+# Browse available plugins
+copilot plugin marketplace browse secmycode
+
+# Install individual plugins
+copilot plugin install secure-code-gen@secmycode
+copilot plugin install security-review@secmycode
+copilot plugin install security-planning@secmycode
+copilot plugin install dependency-audit@secmycode
+
+# Or install directly from the repo
+copilot plugin install arnaudlh/secmycode:plugins/security-review
+```
+
+### Available Plugins
+
+| Plugin | Agents | Skills | Description |
+|--------|--------|--------|-------------|
+| `secure-code-gen` | `@secure-code-gen` | `appsec-review`, `secrets-scanner`, `database-security-review` | Security-first code generation |
+| `security-review` | `@security-reviewer`, `@owasp-scanner` | `api-security-review`, `llm-security-review`, `owasp-agentic-review`, `cloud-deploy-security` | OWASP vulnerability scanning |
+| `security-planning` | `@security-planner`, `@threat-modeler`, `@sssc-planner`, `@rai-planner` | — | Threat modeling & security planning |
+| `dependency-audit` | `@dependency-auditor` | — | Dependency & supply chain audit |
+
+### Option 2: Copy `.github/` folder
+
+1. Clone this repo and copy the `.github/` folder into your project.
+2. Instructions activate automatically based on file patterns.
+3. Use agents by typing `@security-reviewer`, `@security-planner`, etc. in Copilot Chat.
+4. Use prompts by typing `/security-review`, `/security-plan`, etc. in Copilot Chat.
 
 ## Usage Examples
 

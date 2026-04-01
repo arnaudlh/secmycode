@@ -1,0 +1,15 @@
+{
+  "name": "secure-code-gen",
+  "description": "Security-first code generation with CSA Secure Vibe Coding Guide and OpenSSF best practices. Includes secure code generator agent and skills for application security review, secrets scanning, and database security review.",
+  "version": "0.3.0",
+  "author": {
+    "name": "arnaudlh"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/arnaudlh/secmycode",
+  "keywords": ["security", "secure-coding", "owasp", "appsec", "secrets", "database"],
+  "category": "security",
+  "tags": ["csa", "openssf", "vibe-coding", "code-generation"],
+  "agents": "agents/",
+  "skills": "skills/"
+}

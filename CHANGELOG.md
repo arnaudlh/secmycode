@@ -2,6 +2,28 @@
 
 All notable changes to this Secure Vibe Coding Library are documented in this file.
 
+## [0.4.0] - 2026-04-01
+
+### Added — Copilot CLI Marketplace support
+
+**Marketplace**
+- `.github/plugin/marketplace.json` — Marketplace manifest registering 4 installable plugins
+
+**Plugins** (in `plugins/` directory)
+- `secure-code-gen` — Secure code generator agent + appsec-review, secrets-scanner, database-security-review skills
+- `security-review` — Security reviewer + OWASP scanner agents + api-security-review, llm-security-review, owasp-agentic-review, cloud-deploy-security skills
+- `security-planning` — Security planner, threat modeler, SSSC planner, RAI planner agents
+- `dependency-audit` — Dependency auditor agent
+
+**Installation**
+```bash
+copilot plugin marketplace add arnaudlh/secmycode
+copilot plugin install secure-code-gen@secmycode
+```
+
+### Changed
+- README updated with CLI marketplace installation instructions and plugin catalog
+
 ## [0.3.0] - 2026-04-01
 
 ### Changed — OpenSSF Best Practices integration

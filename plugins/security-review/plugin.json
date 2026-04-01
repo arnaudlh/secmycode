@@ -1,0 +1,15 @@
+{
+  "name": "security-review",
+  "description": "Multi-mode OWASP vulnerability assessment with audit, diff, and plan scanning modes. Includes security reviewer and OWASP scanner agents, plus skills for API security, LLM security, agentic security, and cloud deployment review.",
+  "version": "0.3.0",
+  "author": {
+    "name": "arnaudlh"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/arnaudlh/secmycode",
+  "keywords": ["security", "owasp", "vulnerability", "code-review", "api-security", "llm-security"],
+  "category": "security",
+  "tags": ["owasp-top-10", "owasp-agentic", "owasp-llm", "hve-core"],
+  "agents": "agents/",
+  "skills": "skills/"
+}

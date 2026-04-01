@@ -1,0 +1,14 @@
+{
+  "name": "dependency-audit",
+  "description": "Audits project dependencies for known CVEs, license compliance, supply chain risks (slopsquatting, unpinned versions), and generates SBOM recommendations. Supports npm, pip, Maven, NuGet, Go, Ruby, and Rust.",
+  "version": "0.3.0",
+  "author": {
+    "name": "arnaudlh"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/arnaudlh/secmycode",
+  "keywords": ["security", "dependencies", "cve", "supply-chain", "sbom", "audit"],
+  "category": "security",
+  "tags": ["openssf", "slsa", "vulnerability", "license"],
+  "agents": "agents/"
+}
