@@ -1,7 +1,7 @@
 {
   "name": "secure-code-gen",
   "description": "Security-first code generation with CSA Secure Vibe Coding Guide and OpenSSF best practices. Includes secure code generator agent and skills for application security review, secrets scanning, and database security review.",
-  "version": "0.4.0",
+  "version": "0.0.1",
   "author": {
     "name": "arnaudlh"
   },

@@ -1,7 +1,7 @@
 {
   "name": "security-planning",
   "description": "Phase-based security planning agents for threat modeling (STRIDE), security architecture (NIST 800-53, CIS), supply chain security (OpenSSF Scorecard, SLSA), and responsible AI assessment (NIST AI RMF).",
-  "version": "0.3.0",
+  "version": "0.0.1",
   "author": {
     "name": "arnaudlh"
   },

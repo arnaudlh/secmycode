@@ -5,13 +5,13 @@
   },
   "metadata": {
     "description": "Security agents, skills, and tools for secure coding based on CSA Secure Vibe Coding Guide, OpenSSF Best Practices, and microsoft/hve-core patterns",
-    "version": "0.3.0"
+    "version": "0.0.1"
   },
   "plugins": [
     {
       "name": "secure-code-gen",
       "description": "Security-first code generation with CSA Secure Vibe Coding Guide and OpenSSF best practices. Includes secure code generator agent and skills for application security review, secrets scanning, and database security review.",
-      "version": "0.3.0",
+      "version": "0.0.1",
       "source": "plugins/secure-code-gen",
       "keywords": ["security", "secure-coding", "owasp", "appsec", "secrets", "database"],
       "category": "security",
@@ -20,7 +20,7 @@
     {
       "name": "security-review",
       "description": "Multi-mode OWASP vulnerability assessment with audit, diff, and plan scanning modes. Includes security reviewer and OWASP scanner agents, plus skills for API security, LLM security, agentic security, and cloud deployment review.",
-      "version": "0.3.0",
+      "version": "0.0.1",
       "source": "plugins/security-review",
       "keywords": ["security", "owasp", "vulnerability", "code-review", "api-security", "llm-security"],
       "category": "security",
@@ -29,7 +29,7 @@
     {
       "name": "security-planning",
       "description": "Phase-based security planning agents for threat modeling (STRIDE), security architecture (NIST 800-53, CIS), supply chain security (OpenSSF Scorecard, SLSA), and responsible AI assessment (NIST AI RMF).",
-      "version": "0.3.0",
+      "version": "0.0.1",
       "source": "plugins/security-planning",
       "keywords": ["security", "threat-modeling", "stride", "supply-chain", "responsible-ai", "nist"],
       "category": "security",
@@ -38,7 +38,7 @@
     {
       "name": "dependency-audit",
       "description": "Audits project dependencies for known CVEs, license compliance, supply chain risks (slopsquatting, unpinned versions), and generates SBOM recommendations. Supports npm, pip, Maven, NuGet, Go, Ruby, and Rust.",
-      "version": "0.3.0",
+      "version": "0.0.1",
       "source": "plugins/dependency-audit",
       "keywords": ["security", "dependencies", "cve", "supply-chain", "sbom", "audit"],
       "category": "security",

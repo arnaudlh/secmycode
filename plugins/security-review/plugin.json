@@ -1,7 +1,7 @@
 {
   "name": "security-review",
   "description": "Multi-mode OWASP vulnerability assessment with audit, diff, and plan scanning modes. Includes security reviewer and OWASP scanner agents, plus skills for API security, LLM security, agentic security, and cloud deployment review.",
-  "version": "0.4.0",
+  "version": "0.0.1",
   "author": {
     "name": "arnaudlh"
   },
