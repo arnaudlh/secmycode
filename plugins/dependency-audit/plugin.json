@@ -1,7 +1,7 @@
 {
   "name": "dependency-audit",
   "description": "Audits project dependencies for known CVEs, license compliance, supply chain risks (slopsquatting, unpinned versions), and generates SBOM recommendations. Supports npm, pip, Maven, NuGet, Go, Ruby, and Rust.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": {
     "name": "arnaudlh"
   },
