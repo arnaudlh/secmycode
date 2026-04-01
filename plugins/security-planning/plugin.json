@@ -1,0 +1,14 @@
+{
+  "name": "security-planning",
+  "description": "Phase-based security planning agents for threat modeling (STRIDE), security architecture (NIST 800-53, CIS), supply chain security (OpenSSF Scorecard, SLSA), and responsible AI assessment (NIST AI RMF).",
+  "version": "0.0.1",
+  "author": {
+    "name": "arnaudlh"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/arnaudlh/secmycode",
+  "keywords": ["security", "threat-modeling", "stride", "supply-chain", "responsible-ai", "nist"],
+  "category": "security",
+  "tags": ["security-planner", "sssc", "rai", "hve-core"],
+  "agents": "agents/"
+}
