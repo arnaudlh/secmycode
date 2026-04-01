@@ -2,7 +2,7 @@
 
 All notable changes to this Secure Vibe Coding Library are documented in this file.
 
-## [0.4.0] - 2026-04-01
+## [Unreleased]
 
 ### Added — Copilot CLI Marketplace support
 
